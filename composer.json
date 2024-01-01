@@ -1,0 +1,19 @@
+{
+    "name": "usuario/bienesraices",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pilar Fernández Nieto",
+            "email": "rla10309@educastur.es"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"
+        }
+    }
+}

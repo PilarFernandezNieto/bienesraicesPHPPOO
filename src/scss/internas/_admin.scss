@@ -30,8 +30,15 @@ table.propiedades {
   }
   .acciones {
     text-align: center;
+    input {
+      line-height: 1.8;
+    }
   }
 }
 .imagen-small {
   width: 20rem;
 }
+.w-100{
+  width: 100%;
+}
+

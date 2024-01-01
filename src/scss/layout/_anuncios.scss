@@ -8,6 +8,9 @@
   border: 1px solid darken($gris, 10);
   .contenido-anuncio {
     padding: 2rem;
+    .descripcion {
+      min-height: 200px;
+    }
   }
   h3,
   p {

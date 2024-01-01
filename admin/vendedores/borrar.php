@@ -1,6 +1,6 @@
 <?php
 
-use App\Propiedad;
+use App\Vendedor;
 
 require '../../includes/app.php';
 estaAutenticado();
@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($idBorrar) {
         if (validarTipoContenido($tipo)) {
-            $propiedad = Propiedad::findById($idBorrar);
+            $propiedad = Vendedor::findById($idBorrar);
             $propiedad->delete();
         }
     }

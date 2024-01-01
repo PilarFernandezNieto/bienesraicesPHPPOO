@@ -1,9 +1,9 @@
 <?php
-require "includes/config/database.php";
-$db = conectarDB();
 
-require 'includes/funciones.php';
+require __DIR__ .'/includes/app.php';
+
 incluirTemplate("header", $inicio = true);
+
 ?>
 <main class="contenedor seccion">
     <h1>Más Sobre Nosotros</h1>
