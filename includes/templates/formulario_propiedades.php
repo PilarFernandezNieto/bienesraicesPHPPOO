@@ -42,6 +42,7 @@
             <?php echo $propiedad->vendedorId === $vendedor->id ? "selected" : ""; ?>
              value="<?php echo sanitizar($vendedor->id); ?>"><?php echo sanitizar($vendedor->nombre). " " . sanitizar($vendedor->apellido); ?></option>
         <?php endforeach; ?>
+    </select>
 </fieldset>
 
 <?php if (!$propiedad->id) : ?>
